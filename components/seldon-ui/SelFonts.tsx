@@ -1,4 +1,11 @@
-
-  export function SelFonts() {
-    return <><link key="Inter" href="https://fonts.googleapis.com/css2?family=Inter%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap" rel="stylesheet" /></>
-  }
+export function SelFonts() {
+  return (
+    <>
+      <link
+        key="Inter"
+        href="https://fonts.googleapis.com/css2?family=Inter%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap"
+        rel="stylesheet"
+      />
+    </>
+  )
+}
