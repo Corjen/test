@@ -23,6 +23,7 @@ export type SelButtonProps = {
   font?: config.SeldonProps["font"]
   corners?: config.SeldonProps["corners"]
   color?: config.SeldonProps["color"]
+  opacity?: config.SeldonProps["opacity"]
 } & HTMLAttributes<HTMLButtonElement>
 
 export function SelButton(props: SelButtonProps) {
